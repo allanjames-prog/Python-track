@@ -30,7 +30,7 @@ print(a, b, c)  # Output: 1 2 3
 
 
 # Immutable Property (Throws Error)
-my_tuple[1] = 100  # ❌ TypeError: 'tuple' object does not support item assignment
+my_tuple[1] = 100  # TypeError: 'tuple' object does not support item assignment
 
 # Tuple Methods
 # Tuples have very few built-in methods:

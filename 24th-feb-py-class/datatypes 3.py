@@ -118,3 +118,4 @@ print(dict_data["name"])  # Output: James
 # Key-value pairs are essential for efficient data storage and retrieval.
 # Dictionaries are the most common way to store them in Python.
 # Methods like .items(), .keys(), and .values() help in working with key-value pairs efficiently.
+

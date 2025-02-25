@@ -11,6 +11,8 @@ student = {"name": "Allan", "age": 25, "city": "Kampala"}
 # "Allan" → Value
 # "age": 25, "city": "Kampala" → More key-value pairs
 
+
+
 # 2. Creating Key-Value Pairs (Dictionaries)
 # Dictionaries (dict) are the most common way to store key-value pairs in Python.
 
@@ -30,6 +32,8 @@ person["name"] = "James"
 person["age"] = 30
 person["city"] = "Nairobi"
 
+
+
 # 3. Accessing Key-Value Pairs
 # Using Keys ([] notation)
 
@@ -40,18 +44,26 @@ print(person["name"])  # Output: James
 print(person.get("name"))   # Output: James
 print(person.get("gender", "Not Found"))  # Output: Not Found
 
+
+
 # 4. Modifying Key-Value Pairs
 person["age"] = 31  # Update age
 person["country"] = "Kenya"  # Add new key-value pair
+
+
 
 # 5. Removing Key-Value Pairs
 del person["city"]  # Removes "city" key
 age = person.pop("age")  # Removes "age" and returns its value
 
+
+
 # 6. Looping Through Key-Value Pairs
 # Loop Through Keys
 for key in person:
     print(key)  # Prints: name, country
+
+    
 
 # Loop Through Values
 for value in person.values():

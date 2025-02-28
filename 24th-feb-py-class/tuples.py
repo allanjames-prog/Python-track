@@ -1,12 +1,12 @@
-# Tuples in Python
-# A tuple is an ordered, immutable collection of items in Python. It is similar to a list but with the key difference that tuples cannot be modified (immutable) after creation.
+"""Tuples in Python
+A tuple is an ordered, immutable collection of items in Python. It is similar to a list but with the key difference that tuples cannot be modified (immutable) after creation.
 
-# Key Features of Tuples
-# 1. Ordered → Items retain their position.
-# 2. Immutable → Cannot be changed (no adding, removing, or modifying elements).
-# 3. Allows Duplicates → Can store repeated values.
-# 4. Can Hold Mixed Data Types → Strings, integers, lists, etc.
-# 5. Faster than Lists → Tuples are more memory efficient.
+Key Features of Tuples
+1. Ordered → Items retain their position.
+2. Immutable → Cannot be changed (no adding, removing, or modifying elements).
+3. Allows Duplicates → Can store repeated values.
+4. Can Hold Mixed Data Types → Strings, integers, lists, etc.
+5. Faster than Lists → Tuples are more memory efficient."""
 
 
 # Creating a Tuple
@@ -41,8 +41,8 @@ print(len(t))      # Count elements → Output: 6
 print(t.count(2))  # Count occurrences of 2 → Output: 3
 print(t.index(3))  # Find index of 3 → Output: 2
 
-# When to Use Tuples Instead of Lists?
-#  When you need data protection (no modifications).
-#  When you want faster performance in large data collections.
-#  When working with fixed data (e.g., coordinates, database records).
-
+"""When to Use Tuples Instead of Lists?
+ When you need data protection (no modifications).
+ When you want faster performance in large data collections.
+ When working with fixed data (e.g., coordinates, database records).
+"""

@@ -1,6 +1,6 @@
-# Comparison operators
-# These compare two values and return a boolean.
-# In mathematics we have operators like >, <, >= etc.
+"""Comparison operators
+These compare two values and return a boolean.
+In mathematics we have operators like >, <, >= etc."""
 
 # lets decalare some variables
 comp1 = 20
@@ -14,13 +14,13 @@ print(comp1 != comp2)
 print(comp1 == comp2)
 
 
-# NOTE
-# 1. Write comments on top of the line you want comment about
-# Alway go to the point, follow the rules of english grammer
-# 2. There is an assignment that is to be started on thursday as shown on the googel classrom
+"""NOTE
+1. Write comments on top of the line you want comment about
+Alway go to the point, follow the rules of english grammer
+2. There is an assignment that is to be started on thursday as shown on the googel classrom"""
 
-# Logical Operators
-# We have the following, and (&), or (||), not (!)
+"""Logical Operators
+We have the following, and (&), or (||), not (!)"""
 log1 = 5
 log2 = 6
 # The and operator in Python returns True if both conditions are True
@@ -50,9 +50,9 @@ print(True or False)
 # This prints false
 print(False or False)
 
-# SPECIAL OPERATORS IN PYTHON
-# 1. Membership Operators.
-# We only have two operators in membership operators ie in and not in
+"""SPECIAL OPERATORS IN PYTHON
+1. Membership Operators.
+We only have two operators in membership operators ie in and not in"""
 members = {20, 30, 40, 50}
 print(20 in members)
 print(20 not in members)

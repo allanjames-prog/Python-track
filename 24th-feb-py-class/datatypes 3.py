@@ -1,20 +1,20 @@
-# 1. What Are Key-Value Pairs?
-# A key-value pair consists of:
+"""1. What Are Key-Value Pairs?
+A key-value pair consists of:"""
 
-# A key → A unique identifier (e.g., a name, ID, or label).
-# A value → The associated data (e.g., a number, string, list, or another dictionary).
-# Example:
+"""A key → A unique identifier (e.g., a name, ID, or label).
+A value → The associated data (e.g., a number, string, list, or another dictionary).
+Example:"""
 
 student = {"name": "Allan", "age": 25, "city": "Kampala"}
 
-# "name" → Key
-# "Allan" → Value
-# "age": 25, "city": "Kampala" → More key-value pairs
+""""name" → Key
+"Allan" → Value
+"age": 25, "city": "Kampala" → More key-value pairs"""
 
 
 
-# 2. Creating Key-Value Pairs (Dictionaries)
-# Dictionaries (dict) are the most common way to store key-value pairs in Python.
+"""2. Creating Key-Value Pairs (Dictionaries)
+Dictionaries (dict) are the most common way to store key-value pairs in Python."""
 
 # Method 1: Using Curly Braces ({})
 person = {
@@ -34,8 +34,8 @@ person["city"] = "Nairobi"
 
 
 
-# 3. Accessing Key-Value Pairs
-# Using Keys ([] notation)
+"""3. Accessing Key-Value Pairs
+Using Keys ([] notation)"""
 
 print(person["name"])  # Output: James
 # Error Alert! If the key doesn’t exist, Python raises a KeyError.
@@ -58,8 +58,8 @@ age = person.pop("age")  # Removes "age" and returns its value
 
 
 
-# 6. Looping Through Key-Value Pairs
-# Loop Through Keys
+"""6. Looping Through Key-Value Pairs
+Loop Through Keys"""
 for key in person:
     print(key)  # Prints: name, country
 
@@ -77,14 +77,14 @@ for key, value in person.items():
 if "name" in person:
     print("Key exists!")
 
-# 8. Dictionary Methods for Key-Value Pairs
-# Method	- Description
-# keys()	- Returns all keys
-# values()	Returns all values
-# items()	Returns key-value pairs as tuples
-# get(key, default)	Returns value or default if key not found
-# pop(key, default)	Removes and returns value of key
-# update(dict2)	Updates dictionary with another dictionary
+"""8. Dictionary Methods for Key-Value Pairs
+Method	- Description
+keys()	- Returns all keys
+values()	Returns all values
+items()	Returns key-value pairs as tuples
+get(key, default)	Returns value or default if key not found
+pop(key, default)	Removes and returns value of key
+update(dict2)	Updates dictionary with another dictionary"""
 
 # Example:
 print(person.keys())    # Output: dict_keys(['name', 'country'])
@@ -109,14 +109,14 @@ people = [
 pairs = (("name", "James"), ("age", 30))
 person = dict(pairs)
 
-# 11. Use Cases of Key-Value Pairs
-# Databases (storing user info in key-value format)
-# API Responses (JSON data is structured as key-value pairs)
-# Configurations (settings stored in key-value format)
-# Caching (fast lookups using dictionaries)
+"""11. Use Cases of Key-Value Pairs
+Databases (storing user info in key-value format)
+API Responses (JSON data is structured as key-value pairs)
+Configurations (settings stored in key-value format)
+Caching (fast lookups using dictionaries)"""
 
-# 12. Converting Key-Value Pairs
-# Convert Dictionary to JSON
+"""12. Converting Key-Value Pairs
+Convert Dictionary to JSON"""
 import json
 data = {"name": "James", "age": 30}
 json_data = json.dumps(data)
@@ -126,8 +126,8 @@ print(json_data)  # Output: '{"name": "James", "age": 30}'
 dict_data = json.loads(json_data)
 print(dict_data["name"])  # Output: James
 
-# Relevance
-# Key-value pairs are essential for efficient data storage and retrieval.
-# Dictionaries are the most common way to store them in Python.
-# Methods like .items(), .keys(), and .values() help in working with key-value pairs efficiently.
+"""Relevance
+Key-value pairs are essential for efficient data storage and retrieval.
+Dictionaries are the most common way to store them in Python.
+Methods like .items(), .keys(), and .values() help in working with key-value pairs efficiently."""
 
